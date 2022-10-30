@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar clase activa con JS</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        padding: 50px;
+        width: 100%;
+        height: 100vh;
+        max-width: 1440px;
+        background: rgb(39, 39, 39);
+    }
+    .container .container_title{
+        text-align: center;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    }
+    .container .container_block{
+        margin-top: 30px;
+        width: 500px;
+        padding: 10px 0px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .container_block button{
+        width: 50px;
+        padding: 10px;
+        margin: 2px 10px;
+        border: none;
+    }
+    .active, button:hover{
+        background: teal;
+        color: white;
+    } 
+
+
+</style>
+
+
+<body>
+    <main class="container">
+        <h1 class="container_title"> Agregar clase activa con JS </h1>
+        <div class="container_block">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+        </div>
+    </main>
+
+
+
+    <script >
+        let buttons = document.querySelectorAll("button")
+        buttons.forEach( buton =>{
+            //console.log(buton)
+            buton.addEventListener("click", ()=>{
+                //console.log("me diste")
+                buttons.forEach( btn => btn.classList.remove("active"))
+                //this.classList.add("active")
+            })
+        })
+    </script>
+</body>
+</html>

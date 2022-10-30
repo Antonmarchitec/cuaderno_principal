@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de prueba con chexbox</title>
+</head>
+<body>
+
+    <form>
+        <div>
+            <label for="radioButon1"> ELEMENTO 1</label>
+            <input type="checkbox" value="tema1" name="grupo" id="radioButon1" class="checks">
+        </div>
+       
+        <div>
+            <label for="radioButon2"> ELEMENTO 2</label>
+            <input type="checkbox" value="tema2" name="grupo" id="radioButon2" class="checks">
+        </div>
+       
+        <div>
+            <label for="radioButon3"> ELEMENTO 3</label>
+            <input type="checkbox" value="tema3" name="grupo" id="radioButon3" class="checks">
+        </div>
+    
+        <button type="button" id="boton"> Mostrar valores </button>
+    </form>
+    
+    <h2>Valores seleccionados</h2>
+    <ul id="elementUl" style="background:rgb(209, 209, 209) ;width: 200px;height: 100px;">
+        <!--   <li class="elementUl_li"> aca viene el texto </li>    -->
+    </ul>
+     
+
+    <script>
+        let buton = document.getElementById("boton")
+        let checks = document.querySelectorAll(".checks")
+        let elementUl = document.getElementById("elementUl")
+
+        buton.addEventListener("click", ()=>{
+            elementUl.textContent = " "
+
+            checks.forEach( ele =>{
+                //console.log(ele)
+                if(ele.checked == true){
+                   let elem_li = document.createElement("li")
+                   elem_li.className = "elementUl_li"
+                   elem_li.textContent = ele.value
+                   elementUl.appendChild(elem_li)
+                }
+                
+            })
+        })
+
+
+     
+       
+
+    </script>
+</body>
+</html>
