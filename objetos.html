@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Objetos </title>
+</head>
+<body>
+    
+
+    <script>
+        ///////////////////
+        //CUESTIONARIO////
+
+        //1. QUE SON LOS OBJETOS?
+        //R. En JavaScript, un objeto es un entidad independiente con propiedades y tipos. Compáralo con una taza, por ejemplo. Una taza es un objeto con propiedades. Una taza tiene un color, un diseño, un peso, un material del que está hecha, etc.
+
+        /*¿Cuáles son los tipos de objetos en JavaScript?
+        Capítulo 8 Objetos. Los tipos primitivos en JavaScript son undefined , null , boolean , number y string . Aunque pueda resultar extraño, el resto de elementos en JavaScript son objetos, tanto las funciones, arrays, expresiones regulares como los propios objetos.*/
+
+    const newObjeto = {
+        modelo:"Toyota",
+        color:"Rojo",
+        ruedas:"Gotyear",
+        caja:"Mecanica",
+        objetoDos:{
+            color:"grey",
+            modelo:"Mazda",
+            caja:"Automatica",
+            ruedas: 54,
+            
+            objetoTres:{
+                color:"blue",
+                modelo:"Mizubisku",
+                caja:"Automatica / Mecanica",
+                ruedas: 4,
+                real: true
+            }
+        }
+    }
+
+
+
+    //TEMPLATE STRING   //DESTRUCTURING OBJECT
+    const { color, caja, real } = newObjeto.objetoDos.objetoTres
+    console.log(`El color del vehiculo es ${color},
+    comprende con una caja ${caja} y es ${real}`)
+    
+
+    let Persona = {
+        nombre:"Antonio",
+        apellido:"Ponce",
+        edad: 36,
+        estatura: "1.40cm",
+        test:"Trigueño",
+        fn: () =>{
+            console.log("esta es una funcion")
+        },
+        arreglo: ["Lunes", "Martes", "Miercoles"]
+    }
+
+    
+    console.log(Persona ["arreglo"])
+    console.log(Persona.arreglo)
+    console.log(Persona.edad)
+
+    const { estatura, test} = Persona
+    console.log(estatura)
+    console.log(test)
+    
+    /*const {nombre, apellido, edad, estatura} = Persona
+    console.log(nombre)
+    console.log(apellido)
+    console.log(edad)
+    console.log(estatura)
+
+    console.log(`Mi nombre es ${nombre} ${apellido}, mi edad es ${edad} años y mi estatura
+    es de ${estatura}`)*/
+
+
+    </script>
+</body>
+</html>

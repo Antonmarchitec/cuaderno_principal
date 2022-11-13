@@ -31,7 +31,7 @@
     
 
 
-<script>
+  <script>
 
    
         
@@ -48,6 +48,20 @@
         }
     }
 
+    class Persona{
+        constructor(nom, ape , edad, statura){
+            this.nom = nom
+            this.ape = ape
+            this.edad = edad
+            this.statura = statura
+        }
+
+        imprimirMensaje(){
+           //console.log("Imprimiendo mensaje")
+           return ("Imprimiendo mensaje")
+        }
+    }
+
     
 
     window.document.addEventListener("click", e =>{
@@ -60,11 +74,21 @@
             //console.log(perrito2)
         }else if(e.target.id == "perrito3"){
             let perrito3 = new Perrito("nill", 2, "Hembra")
-            //onsole.log(perrito3)
+            //console.log(perrito3)
+        }else{
+            //console.log("Seleccionar un elemento")
         }
     })
 
 
+
+    document.addEventListener( "DOMContentLoaded", () =>{
+        let primera__persona = new Persona("Juan", "Paco", 25, "1.40cm")
+        //console.log(primera__persona)
+
+        let segunda__persona = new Persona("Pedro", "Fuentes", "", ""   )
+        //console.log(segunda__persona)
+    })
 
 
     
@@ -135,12 +159,9 @@ class mostrarTemplate{
     }
 
     //UTILIZANDO METODO (FUNCION) DENTRO DE CLASE
-    mostrarInfo(){
-        return `
-         nombre: ${this.nombre} <br/>
-         edad: ${this.edad} <br/>
-         sexo: ${this.sexo} 
-        `
+    mostrarInfo(num1, num2){
+        let suma = num1 + num2
+        return suma
     }
 } 
 
@@ -148,8 +169,8 @@ class mostrarTemplate{
 
 //AMBOS ELEMENTOS UTIOLIZAN REUTILIAN EL MISMO CONSTRUCTOR
 //Y PARA ELLO NOS SIRVE LAS CLASES
-const mostrar = new mostrarTemplate("Tonio", 18, "Varon")
-//console.log(mostrar.mostrarInfo())
+const mostrar = new mostrarTemplate()
+//console.log(mostrar.mostrarInfo(23,50))
 
 
 
@@ -174,8 +195,8 @@ class Estudiantes extends mostrarTemplate {
 }
 
 
-const richard = new Estudiantes("Richard Ponce", 37, "Hombre", "desarrollo")
-//console.log(richard.mostrarInfo())
+const estudiante_1 = new Estudiantes("Richard Ponce", 37, "Hombre", "desarrollo")
+//console.log(estudiante_1.mostrarInfo())
 
 
 //////////////EJHEMPLO 8
@@ -186,7 +207,7 @@ class Automoviles{
        this.motor = motor
        this.modelo = modelo 
     }
-}  
+}    
 
 
 const Auto1 = new Automoviles("red", "B8-512", "Mazda")
@@ -204,7 +225,7 @@ class Motocicletas extends Automoviles{
 }
      
 const Moto1 = new Motocicletas("amarillo", "sepa", "buyrt", "godyear")
-//console.log(Moto1.mostrarMotos(100, 12))
+//console.log(Moto1)
 
 
 
@@ -236,7 +257,6 @@ class Autos extends Motos{
     }
 }
 
-
 class Barcos extends Motos{
     constructor(bandera, motor, marca, modelo,color){
         super(marca, modelo,color)
@@ -246,6 +266,33 @@ class Barcos extends Motos{
 }
 
 
+
+
+class Perros{
+    constructor( nombre, edad, raza){
+        this.nombre = nombre
+        this.edad = edad
+        this.raza = raza
+    }
+
+    mostrarMensaje(){
+        return ("Esta clase es de perritos")
+    }
+}
+
+class Gatos extends Perros{
+    constructor(nombre, edad, raza, tamaño){
+        super(nombre, edad, raza)
+        this.tamaño = tamaño
+    }
+
+    mostrarGatitos(){
+        console.log(" mostrar a los Gatitos ")
+    }
+}
+
+let gatito__1 = new Gatos("Blanca", 2, "Angora", "1m")
+console.log(gatito__1)
 
 
 

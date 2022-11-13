@@ -1,3 +1,7 @@
+
+<!--VER LA REFERENCIA PARA ESTE TEMA 
+https://www.youtube.com/watch?v=f3OeedgOE8o-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,31 +11,225 @@
     <title>Asincronia</title>
 </head>
 <body>
-    <h1 id="horas"> HORAS</h1>
+    <h1 id="horas"> TEMPORIZADORES ASINCRONIA EN JS </h1>
+    <h2> setInterval </h2>
+    <h2> setTimeOut </h2>
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque tempora qui explicabo maiores. Fugiat laborum veniam exercitationem hic adipisci, aut tempore odio a iusto vitae voluptatibus! Consequuntur sint voluptas tempora nulla rem repellendus, nam mollitia illum voluptatum labore, optio distinctio reiciendis delectus dolore placeat a quisquam corporis! Illum ex repellat culpa saepe tenetur? Asperiores officia molestias, accusantium harum tempore dolor repellat! Ullam, incidunt aut at soluta iste, neque maxime, tenetur quod placeat ipsum nulla numquam dolor quas totam dignissimos mollitia. Minima perferendis, harum alias culpa ratione odio ut sequi officiis quasi? Eligendi, exercitationem recusandae consequuntur quo excepturi sunt repellendus maiores ratione commodi, nobis quibusdam sed nisi? Ab consequuntur labore porro nulla aspernatur illo, enim vel ipsum adipisci harum eum! Placeat quas quae quo quod maxime eligendi nobis ut ea repellendus tenetur cupiditate, tempore laboriosam quisquam ad corrupti neque eveniet, fugit voluptatem totam? Totam consequuntur iste, minus enim sed unde placeat pariatur optio reiciendis quidem temporibus ipsum quos necessitatibus veritatis quisquam ullam dicta commodi eius officiis alias reprehenderit laborum nesciunt nobis eum? Dolorem a error asperiores nobis tenetur cupiditate incidunt voluptatem, odio aperiam. Reprehenderit repudiandae cum maiores obcaecati eos soluta, eveniet earum recusandae neque quibusdam, accusamus voluptatum eius. Culpa repudiandae fugiat reprehenderit blanditiis a id, fugit labore maxime! Ratione voluptate ea consectetur ipsam voluptatum facere omnis magni qui tenetur. Officia cum aperiam possimus numquam ratione quaerat illo fugiat tempore dolore recusandae molestiae quae eum voluptatum consequuntur incidunt obcaecati, veniam repellendus inventore totam fuga autem debitis pariatur dolores dolorum? Consequuntur facilis saepe ab minus cupiditate corporis iusto maiores, in ullam voluptate iure nesciunt non officiis reiciendis odio? Eveniet laborum veniam neque porro placeat deleniti fugiat consequuntur ad ipsa, voluptates odio molestias pariatur soluta aliquam maiores libero aliquid saepe repudiandae omnis facere atque eius provident! Recusandae nulla, debitis optio quas, dolore consectetur ipsa temporibus, et inventore quod enim mollitia! Doloremque, dolor magnam nemo nesciunt eos velit magni voluptates excepturi! Unde, reiciendis id? Tempore, quas! Neque tempora, blanditiis quis consequatur omnis a modi sint inventore. Dignissimos, iure ullam, dolorum architecto fugiat iste laborum quia explicabo ad illum voluptatem, ipsam earum ipsum vitae dolore beatae inventore dolores odio velit veniam tempora mollitia ut. Dolor harum cupiditate voluptatum consectetur, asperiores ducimus incidunt in praesentium, quae fugit dolorum optio quidem est voluptas earum autem expedita minima recusandae consequatur ratione exercitationem! Repudiandae nemo explicabo eius ad, sapiente reiciendis quos similique aut, molestiae nostrum soluta quaerat doloribus dolore sed fugit velit voluptate officiis dolores, quo minima? Eius, obcaecati sed totam, praesentium saepe odit voluptatum optio deserunt, possimus id fuga est porro. Quibusdam et, repellat, nam veniam aspernatur impedit placeat laboriosam deserunt minus est doloremque accusamus quisquam similique! Soluta aut vel quos tempore deserunt! Dicta eligendi est veniam voluptatem asperiores sit quas voluptate sapiente, porro officiis laboriosam fugit tempora expedita, perspiciatis labore quia inventore et eaque cupiditate reprehenderit laudantium. Repellendus quibusdam possimus ipsum culpa esse perferendis doloremque illum voluptas natus. Adipisci consectetur vero sit magnam, aut deserunt, quam incidunt amet porro doloribus impedit, temporibus voluptatem eligendi pariatur excepturi neque rem
+        dolores, quo minima? Eius, obcaecati sed totam, praesentium saepe odit voluptatum optio deserunt, possimus id fuga est porro. Quibusdam et, repellat, nam veniam aspernatur impedit placeat laboriosam deserunt minus est doloremque accusamus quisquam similique! Soluta aut vel quos tempore deserunt! Dicta eligendi est veniam voluptatem asperiores sit quas voluptate sapiente, porro officiis laboriosam fugit tempora expedita, perspiciatis labore quia inventore et eaque cupiditate reprehenderit laudantium. Repellendus quibusdam possimus ipsum culpa esse perferendis doloremque illum voluptas natus. Adipisci consectetur vero sit magnam, aut deserunt, quam incidunt amet porro doloribus impedit, temporibus voluptatem eligendi pariatur excepturi neque rem
+        .</p>
 
+        <div class="caja" style="width:100px; height: 100px; background: blue;" id="caja">
+            <h2 class="contador" id="contador" style="font-size:50px; text-align:center;color: white;"> 0 </h2>
+        </div>
+
+
+
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque tempora qui explicabo maiores. Fugiat laborum veniam exercitationem hic adipisci, aut tempore odio a iusto vitae voluptatibus! Consequuntur sint voluptas tempora nulla rem repellendus, nam mollitia illum voluptatum labore, optio distinctio reiciendis delectus dolore placeat a quisquam corporis! Illum ex repellat culpa saepe tenetur? Asperiores officia molestias, accusantium harum tempore dolor repellat! Ullam, incidunt aut at soluta iste, neque maxime, tenetur quod placeat ipsum nulla numquam dolor quas totam dignissimos mollitia. Minima perferendis, harum alias culpa ratione odio ut sequi officiis quasi? Eligendi, exercitationem recusandae consequuntur quo excepturi sunt repellendus maiores ratione commodi, nobis quibusdam sed nisi? Ab consequuntur labore porro nulla aspernatur illo, enim vel ipsum adipisci harum eum! Placeat quas quae quo quod maxime eligendi nobis ut ea repellendus tenetur cupiditate, tempore laboriosam quisquam ad corrupti neque eveniet, fugit voluptatem totam? Totam consequuntur iste, minus enim sed unde placeat pariatur optio reiciendis quidem temporibus ipsum quos necessitatibus veritatis quisquam ullam dicta commodi eius officiis alias reprehenderit laborum nesciunt nobis eum? Dolorem a error asperiores nobis tenetur cupiditate incidunt voluptatem, odio aperiam. Reprehenderit repudiandae cum maiores obcaecati eos soluta, eveniet earum recusandae neque quibusdam, accusamus voluptatum eius. Culpa repudiandae fugiat reprehenderit blanditiis a id, fugit labore maxime! Ratione voluptate ea consectetur ipsam voluptatum facere omnis magni qui tenetur. Officia cum aperiam possimus numquam ratione quaerat illo fugiat tempore dolore recusandae molestiae quae eum voluptatum consequuntur incidunt obcaecati, veniam repellendus inventore totam fuga autem debitis pariatur dolores dolorum? Consequuntur facilis saepe ab minus cupiditate corporis iusto maiores, in ullam voluptate iure nesciunt non officiis reiciendis odio? Eveniet laborum veniam neque porro placeat deleniti fugiat consequuntur ad ipsa, voluptates odio molestias pariatur soluta aliquam maiores libero aliquid saepe repudiandae omnis facere atque eius provident! Recusandae nulla, debitis optio quas, dolore consectetur ipsa temporibus, et inventore quod enim mollitia! Doloremque, dolor magnam nemo nesciunt eos velit magni voluptates excepturi! Unde, reiciendis id? Tempore, quas! Neque tempora, blanditiis quis consequatur omnis a modi sint inventore. Dignissimos, iure ullam, dolorum architecto fugiat iste laborum quia explicabo ad illum voluptatem, ipsam earum ipsum vitae dolore beatae inventore dolores odio velit veniam tempora mollitia ut. Dolor harum cupiditate voluptatum consectetur, asperiores ducimus incidunt in praesentium, quae fugit dolorum optio quidem est voluptas earum autem expedita minima recusandae consequatur ratione exercitationem! Repudiandae nemo explicabo eius ad, sapiente reiciendis quos similique aut, molestiae nostrum soluta quaerat doloribus dolore sed fugit velit voluptate officiis dolores, quo minima? Eius, obcaecati sed totam, praesentium saepe odit voluptatum optio deserunt, possimus id fuga est porro. Quibusdam et, repellat, nam veniam aspernatur impedit placeat laboriosam deserunt minus est doloremque accusamus quisquam similique! Soluta aut vel quos tempore deserunt! Dicta eligendi est veniam voluptatem asperiores sit quas voluptate sapiente, porro officiis laboriosam fugit tempora expedita, perspiciatis labore quia inventore et eaque cupiditate reprehenderit laudantium. Repellendus quibusdam possimus ipsum culpa esse perferendis doloremque illum voluptas natus. Adipisci consectetur vero sit magnam, aut deserunt, quam incidunt amet porro doloribus impedit, temporibus voluptatem eligendi pariatur excepturi neque rem
+        dolores, quo minima? Eius, obcaecati sed totam, praesentium saepe odit voluptatum optio deserunt, possimus id fuga est porro. Quibusdam et, repellat, nam veniam aspernatur impedit placeat laboriosam deserunt minus est doloremque accusamus quisquam similique! Soluta aut vel quos tempore deserunt! Dicta eligendi est veniam voluptatem asperiores sit quas voluptate sapiente, porro officiis laboriosam fugit tempora expedita, perspiciatis labore quia inventore et eaque cupiditate reprehenderit laudantium. Repellendus quibusdam possimus ipsum culpa esse perferendis doloremque illum voluptas natus. Adipisci consectetur vero sit magnam, aut deserunt, quam incidunt amet porro doloribus impedit, temporibus voluptatem eligendi pariatur excepturi neque rem
+        .</p>
 
 
     <script>
-        //SetTimeOut////
-        setTimeout(function(){
+        let caja = document.querySelector("#caja")
+        let contador = document.getElementById("contador")
+
+
+
+        let numStart = 0
+
+        let intervalll = () =>{
+            console.log(` Lanzamiento en ${numStart} segundos ${nombre} ${apellido} `)
+            numStart++
+            contador.textContent = numStart
+            if(numStart == 10){
+                clearInterval(interEnd)
+            }
+         }
+         let interEnd = setInterval(intervalll, 100)
+
+         
+    
+        /*document.addEventListener("scroll", ()=>{
+            let posScroll = document.documentElement.scrollTop
+            //console.log(posScroll)
+
+            let posCaja = caja.offsetTop   //955
+            //console.log(posCaja)
+
+            if(posScroll > posCaja - 400){
+                caja.style.background = "yellow"
+            }
+        })*/
+
+      
+
+
+
+
+
+
+
+    //TEMPORIZADORES
+    //setTimeout en JavaScript:
+    //Se lo otiliza para ejecutar una determinada funcion despues de un cierto tiempo y normalmente lo veras como una funcion anonima
+
+    //Ejemplo 
+    
+    setTimeout(function() {
+	  //console.log("Yo me imprimo un segundo después, es decir, mil milisegundos después :)");
+    }, 1000);
+
+
+
+
+
+
+
+
+
+    /*Como el primer argumento es una función, igualmente podríamos pasarle el nombre de una función que ya exista. Así:*/
+
+    // Definir una función llamada imprimir
+    const imprimir = () => {
+        //console.log("Soy una función que imprime un mensaje a la consola");
+    };
+    // E indicar que se llame a imprimir en 1000 milisegundos
+    setTimeout(imprimir, 1000);
+
+
+
+
+
+
+
+
+
+
+    /*Para terminar la explicación, si la función que le pasas recibe argumentos, puedes pasar esos argumentos a setTimeout. Veamos un ejemplo:*/
+
+    // Definir una función llamada saludar que recibe el nombre y la edad
+    const ssaludar = (nombre, edad) => {
+        //console.log(`Hola ${nombre} tu edad es de ${edad}`);
+    };
+    // Llamar a saludar y pasarle argumentos
+    setTimeout(ssaludar, 1000, "Luis", 20);
+
+
+
+
+
+
+
+
+
+    /*Cabe mencionar que igualmente se puede definir una función anómina dentro de setTimeout, y dentro de esa función llamar a otra con argumentos como en el siguiente código de ejemplo:*/
+
+    // Definir una función llamada saludar que recibe el nombre y la edad
+    const saludar = (nombre, edad) => {
+            //console.log(`Hola ${nombre} tu edad es de ${edad}`);
+        };
+        // Llamar a saludar y pasarle argumentos
+        setTimeout(function() {
+            saludar("Luis", 21);
+        }, 4000);
+
+
+
+        /*Lo que devuelve setTimeout, y clearTimeout
+        Al llamar a setTimeout se devuelve un identificador. Más tarde, gracias a ese identificador, podemos cancelar el temporizador.
+        La sintaxis es:*/
+
+        let id = setTimeout(función, tiempoDeRetraso, argumentosQueSePasan);
+
+        /*Pero lo importante aquí es que gracias a ese id devuelto, podemos cancelar el temporizador (eso sí, debe ser antes de que ocurra) con clearTimeout así:*/
+
+        clearTimeout(id);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*REPASOS EN BORRADOR*/
+    
+        /***************************************************
+         * ***************************************************
+         * ************************************************/
+         let start = 0
+        let end = 10
+        let time = 2000
+
+        //////setInterval/////
+        let cont = setInterval(() =>{
+            //console.log(start ++)
             //console.log("ESTE ES UN SetTimeOut")
-        },5000)
+            if(start == end){
+                clearInterval(cont)
+            }
+        },time)
           
 
-        setTimeout(() =>{
+        //////setTimeOut/////
+         let constet = setTimeout(() =>{
+            //console.log(start ++)
             //console.log("ESTE ES UN SetTimeOut")
-        },4000)
+        },time)
 
 
         let hora = setInterval(function(){
-            console.log(new Date().toLocaleTimeString())
+            //console.log(new Date().toLocaleTimeString())
         },2000)
   
         //clearTimeout(hora)      
 
         /*let contHora = document.querySelector("#horas")
         contHora.textContent = hora*/
-    
+
+
+
+        ///EJEMPLO
+
+        let inicialiacion = 0
+        let finalizacion = 5
+        const saludo = (nombre) =>{
+           inicialiacion++
+           //console.log(`Contador en ${inicialiacion}`)
+           if(inicialiacion == finalizacion){
+            clearInterval(saludoEnd)
+           }  
+        }
+
+         let saludoEnd = setInterval (saludo, 1000, "Adrian")
+
+
+         let ine = 0
+         let fin = 10
+         let der = setInterval( () =>{
+            ine++
+            //console.log(ine)
+            if(ine == fin){
+                clearInterval(der)
+            }
+         },1000)
+
+
+        
     </script>
 </body>
 </html>

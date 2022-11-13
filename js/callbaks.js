@@ -33,3 +33,12 @@ const findPostById = (id, callback) =>{
 findPostById(1, (res) => {
     console.log(res)
 })
+
+
+let ini = 0
+const temporizador = () =>{
+    ini++
+    console.log(i)   
+}
+
+setInterval(temporizador, 1000)

@@ -22,9 +22,14 @@ const web = {
 
     } 
 }
- const {enlace,enlace2} = web.redesSociales.instagram
+
+//Destructuring object
+ const { enlace, enlace2 } = web.redesSociales.instagram
  console.log(enlace)
  console.log(enlace2)
+
+
+
 
 
 
@@ -58,6 +63,7 @@ console.log(arrayMy.peliculas)
 const{accion, terror} = arrayMy.peliculas
 console.log(accion)
 console.log(terror)
+console.log(accion)
 
 
 
