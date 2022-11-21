@@ -11,3 +11,43 @@
 
 3. Insertar en los elemntos que queremos animar
 <h1 class="animate__animated animate__bounce">An animated element</h1>
+
+
+
+
+
+
+
+/*DOCUMENTACION*/
+
+Clases de retraso
+Puede agregar retrasos directamente en el atributo de clase del elemento, así:
+
+<div class="animate__animated animate__bounce animate__delay-2s">Example</div>
+Animate.css proporciona los siguientes retrasos:
+
+Nombre de la clase	Tiempo de retardo predeterminado
+animate__delay-2s	2s
+animate__delay-3s	3s
+animate__delay-4s	4s
+animate__delay-5s	5s
+
+
+
+Clases lentas, más lentas, rápidas y más rápidas
+Puede controlar la velocidad de la animación agregando estas clases, como se muestra a continuación:
+
+<div class="animate__animated animate__bounce animate__faster">Example</div>
+
+animate__slow	2s
+animate__slower	3s
+animate__fast	800ms
+animate__faster	500ms
+
+
+
+USO CON JAVASCRIPT
+Puedes hacer muchas otras cosas con animate.css cuando lo combinas con Javascript. Un ejemplo sencillo:
+
+const element = document.querySelector('.my-element');
+element.classList.add('animate__animated', 'animate__bounceOutLeft');

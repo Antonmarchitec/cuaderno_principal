@@ -1,0 +1,15 @@
+- DIMENSONES DE ASPECTO PARA FACEBOOK
+
+- PARA HISTORIAS        RA 9.16       WIDTH 1080px * HEIGHT 1920px
+- PARA REELS            RA 9.16       WIDTH 1080px * HEIGHT 1920px
+- PARA PUBLIC            
+
+- DIMENSIONES DE ASPECTO PARA INSTAGRAM
+- PARA HISTORIAS           RA 9.16             WIDTH 1080px * HEIGHT 1920px
+- PARA PUBLI OPCION 1                          WIDTH 1080px * HEIGHT 1080px
+- PARA PUBLI OPCION 2                          WIDTH 1080px * HEIGHT 1350px
+
+
+
+- CONSEJOS PARA GRABAR
+  Grabar con relacion RA 9.16 es decir width 1920px x 1080px

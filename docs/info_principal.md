@@ -55,6 +55,11 @@ PARTE 2: https://www.youtube.com/watch?v=K2D97-5iSzs&t=0s
 12. https://3dexport.com/
 13. https://www.mixamo.com/
 
+# PAGINAS PARA ICONOS
+14. iconScout    (iconos)
+15. FontAweson   (iconos)
+17. flaticon     (iconos)
+
 
 # PAGINAS UTILES PARA PUBLICIDAD MOCKUPS
 1. FREEPIK      https://www.freepik.es/psd/plantillas-web
@@ -96,10 +101,7 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 13. tiny.png                    (OPTIMIZADOR DE IMAGENES)
 14. pngwing.com                 (IMAGENES PNG GRATUITAS) 
 
-# PAGINAS PARA ICONOS
-14. iconScout    (iconos)
-15. FontAweson   (iconos)
-17. flaticon     (iconos)
+
 
 # GENERADORES WEB
 14. cssmatic.com                (GENERADOR DE SOMBRAS)
@@ -123,8 +125,9 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 2. MATERIALIZE
 3. CSS TRICK                
 4. TEMPLATE MONSTER         (TODO TIPO DE PLANTILLAS VENTA DE PLANTILLAS)
-11. hamburguers.css         (GENERA BOTONES HAMBURGUESA)
-
+5. hamburguers.css         (GENERA BOTONES HAMBURGUESA)
+6. AOS https://michalsnik.github.io/aos/  (Animaciones scrolling)
+7. ANIMATE.CSS WOW JS
 
 
 # LIBRERIAS Y FRAMEWORKS JS
@@ -159,7 +162,7 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 5. Auto close Tag                (para html)
 6. QUOKKA                        (muestra resultados sin necesidad de abrir la consola)   
 7. ERROR LENS                    (muestra errores sin necesidad de abrir la consola)
-
+8. Quokka JS                     (Programar con la consola de visual estudio code)
 
 # REPOSITORIOS
 - github pages
