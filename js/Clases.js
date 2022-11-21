@@ -1,98 +1,111 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLASES</title>
-</head>
 
-<style>
-    .caja{
-        padding: 10px 30px;
-        background: grey;
-        text-align: center;
-        margin: 5px auto;
-        color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+class Animal {
+    name              //propiedades no definidas  
+    type = "Dog"      //propiedad definida
+    sexo = "Macho"
+    edad = 10
+
+    // Propiedades
+    constructor(name, type, sexo, edad){
+        this.name = name
+        this.type = type
+        this.sexo = sexo
+        this.edad = edad
+
+        /*console.log(this.name)
+        console.log(this.type)
+        console.log(this.sexo)
+        const aux = this.edad
+        return aux*/
 
     }
-    .title{
-        text-align: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    // Métodos
+    hablar(num1, num2) {
+      //return "Odio los lunes."
+      const suma = num1 + num2
+      return suma
     }
-</style>
-<body>
-    <h1 class="title"> Clases</h1>
-    <div id="perrito1" class="caja"> Perrito 1</div>
-    <div id="perrito2" class="caja"> Perrito 2</div>
-    <div id="perrito3" class="caja"> Perrito 3</div>
+}
 
+
+
+
+//HERENDANDO PROPIEDADES DE CLASS ANIMAL
+class Personita extends Animal {
+    constructor(name, type, sexo, edad, apellido, test){
+        super(name, type, sexo, edad)
+        this.apellido = apellido
+        this.test = test
+
+        this.res = `${this.apellido} yyy ${this.test}`
+
+        console.log(this.res)
+        console.log (this.test)
+        console.log (this.apellido)
+        console.log (this.type)
+
+    }
+}
+
+
+const personita1 = new Personita("Juan", "boxer", "Hembra" ,5 , "Coque", "Blanco")
+
+
+
+ /* const perrito = new Animal("Peludito", "Cat", "Hembra", 20)
+  console.log(perrito)
+
+  //console.log(perrito.name)
+  //console.log(perrito.type)
+
+  const { name, sexo} = perrito
+  console.log(`Tu nombre es: ${name} y sexo es: ${sexo}`)
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////EJEMPLO 4
+class Suma{
+    constructor(dato_a, dato_b){
+        //this.dato11 = dato11
+        //this.dato12 = dato12
+        this.sum = dato_a + dato_b
+    }
     
-
-
-  <script>
-
-   
-        
-/////////////////////EJEMPLO 1
-    class Perrito{
-        constructor(nombre, edad, sexo ){
-            this.nombre = nombre
-            this.edad = edad
-            this.sexo = sexo
-        }
-
-        mostrarSaludo(){
-            return("Hola soy perrito")
-        }
+    //PODEMOS INTRODUCIR FUNCIONES DENTRO DE LA CLASE
+    mostrarSaludo(f1, f2){
+        //let resultado = f1 + f2     //TAMBIEN ES VALIDO
+        //return resultado            //TAMBIEN ES VALIDO
+        this.resultado = f1 + f2
+        return this.resultado
     }
 
-    class Persona{
-        constructor(nom, ape , edad, statura){
-            this.nom = nom
-            this.ape = ape
-            this.edad = edad
-            this.statura = statura
-        }
+}
 
-        imprimirMensaje(){
-           //console.log("Imprimiendo mensaje")
-           return ("Imprimiendo mensaje")
-        }
-    }
-
-    
-
-    window.document.addEventListener("click", e =>{
-        if(e.target.id == "perrito1"){
-            let perrito1 = new Perrito("Peluza", 12, "Hembra")
-            //console.log(perrito1)
-
-        }else if(e.target.id == "perrito2"){
-            let perrito2 = new Perrito("Hachi", 5, "Macho")
-            //console.log(perrito2)
-        }else if(e.target.id == "perrito3"){
-            let perrito3 = new Perrito("nill", 2, "Hembra")
-            //console.log(perrito3)
-        }else{
-            //console.log("Seleccionar un elemento")
-        }
-    })
+const yema = new Suma(5000, 1000)
+//console.log(yema)       //me resulta un objeto
+//console.log(yema.sum)  //me resulta el dato  
+//console.log(yema.mostrarSaludo(50, 100))
 
 
 
-    document.addEventListener( "DOMContentLoaded", () =>{
-        let primera__persona = new Persona("Juan", "Paco", 25, "1.40cm")
-        //console.log(primera__persona)
-
-        let segunda__persona = new Persona("Pedro", "Fuentes", "", ""   )
-        //console.log(segunda__persona)
-    })
 
 
-    
-   
 
 
 //////////////////////EJEMPLO 2
@@ -123,28 +136,7 @@ class Resta{
 const x = new Resta(5000, 1000)
 
 
-////////////////EJEMPLO 4
-class Suma{
-    constructor(dato_a, dato_b){
-        //this.dato11 = dato11
-        //this.dato12 = dato12
-        this.sum = dato_a + dato_b
-    }
-    
-    //PODEMOS INTRODUCIR FUNCIONES DENTRO DE LA CLASE
-    mostrarSaludo(f1, f2){
-        //let resultado = f1 + f2     //TAMBIEN ES VALIDO
-        //return resultado            //TAMBIEN ES VALIDO
-        this.resultado = f1 + f2
-        return this.resultado
-    }
 
-}
-
-const yema = new Suma(5000, 1000)
-//console.log(yema)       //me resulta un objeto
-//console.log(yema.sum)  //me resulta el dato  
-//console.log(yema.mostrarSaludo(50, 100))
 
 
 
@@ -343,12 +335,3 @@ const Persona = {
 
 
 
-
-
-
-
-
-
-    </script>
-</body>
-</html>
