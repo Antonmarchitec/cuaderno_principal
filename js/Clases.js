@@ -330,8 +330,3 @@ const Persona = {
 
 
 
-
-
-
-
-

@@ -170,6 +170,7 @@ const dataFech = async () =>{
         //console.log(data)
         pintarProductos(data)
 
+
     }catch(error){
         console.log("error")
     }

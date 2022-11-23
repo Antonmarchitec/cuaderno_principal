@@ -1,4 +1,13 @@
 APUNTES PARA ESTUDIAR
+EJERCICIOS RESUELTOS JS APRENDER
+digitalnestweb.com
+https://digitalnestweb.com/ejercicios-resueltos-javascript-arrays/?fbclid=IwAR20jZkSbUsAvKzGQGkUNmnlUJJci3TEoz55V54fgrnbmT3gl4DZWC2m26U#Ejercicio_1
+
+https://lenguajejs.com/javascript/oop/clases/
+
+
+
+
 CSS
 ***
 last-child
