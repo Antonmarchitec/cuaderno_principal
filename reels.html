@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reels</title>
+</head>
+<body>
+    
+
+    <script>
+
+        /*let contador = 0
+        const mostrarMensaje = (num1, num2, num3) =>{
+            contador++
+            let resultado = num1 + num2 * num3
+            console.log(resultado)
+            console.log(contador)
+            if(contador === 5){
+                clearInterval(mostrarSet)
+            }
+         }
+
+
+        const mostrarSet = setInterval(mostrarMensaje, 1000, 50, 100, 2000)*/
+
+        
+        
+        //SetTimeout
+        //Sintaxis
+        //setTimeout(funcion, ms, arg1, arg2...)
+         
+        //setTimeout ejecuta un función despues de un periodo de tiempo
+
+        const saludo = (nombre)=>{
+            console.log(` Hola mi nombre es: ${nombre}, buenos dias `)
+        }
+
+        let temporizador = setTimeout(saludo, 1000, "Mark")
+
+        /*Muestra en consola
+        
+        Hola mi nombre es: Mark, buenos dias
+        
+        */
+
+        //DigitizingCode//
+
+
+        //setTimeout(funcion, ms, arg1, arg2...)
+        //setInterval ejecuta una función cada cierto periodo de tiempo
+
+        let contador = 0
+
+        const marcador = ()=>{
+            contador ++
+            console.log(`El contador iniciara en ${contador} y concluira en 5 Seg`)
+            if(contador === 5){
+                clearInterval(finMarcador)
+            }
+        }
+
+        let finMarcador = setInterval(marcador, 1000) 
+
+        /*Muestra en consola
+
+        El contador iniciara en 1 y concluira en 5 Seg
+        El contador iniciara en 2 y concluira en 5 Seg
+        El contador iniciara en 3 y concluira en 5 Seg
+        El contador iniciara en 4 y concluira en 5 Seg
+        El contador iniciara en 5 y concluira en 5 Seg
+        */
+
+
+        //DigitizingCode//
+
+        
+
+
+        class Galleta{
+            constructor(nombre, edad){
+                this.nombre = nombre
+                this.edad = edad
+            }
+
+
+            mostrarDato(){
+                return("Hla mundo")
+            }
+        }
+
+
+        class Tortas extends Galleta{
+            constructor(nombre, edad, merengue, pasas){
+                super(nombre, edad)
+                this.merengue = merengue
+                this.pasas = pasas
+            }
+
+            //METODO
+            mostrarPastel(){
+                //linea de codigo
+            }
+        }
+
+        let torta1 = new tortas("fdsfsf", 100)
+        console.log(galleta1)
+
+
+
+       
+
+
+
+    </script>
+</body>
+</html>

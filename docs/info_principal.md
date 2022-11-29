@@ -6,6 +6,9 @@ https://digitalnestweb.com/ejercicios-resueltos-javascript-arrays/?fbclid=IwAR20
 https://lenguajejs.com/javascript/oop/clases/
 
 
+https://www.youtube.com/watch?v=Seq2Cs3HqUo
+CANVA: https://partner.canva.com/BXg13q
+CLIPCHAMP: https://clipchamp.com/es/
 
 
 CSS
