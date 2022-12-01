@@ -71,6 +71,7 @@ PARTE 2: https://www.youtube.com/watch?v=K2D97-5iSzs&t=0s
 14. iconScout    (iconos)
 15. FontAweson   (iconos)
 17. flaticon     (iconos)
+18. Boxicons     (iconos)
 
 
 # PAGINAS UTILES PARA PUBLICIDAD MOCKUPS
@@ -122,6 +123,7 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 6. neumorphism.io               (GENERA SOMBRAS)
 7. getwaves.io                  (GENERA FONDOS CURVOS)
 16. colors                      (PALETAS DE COLORES)
+18. clippy                      Custom property
 
 
 
@@ -151,6 +153,7 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 10. aos.js          (LIBRERIA ANIMACIONES CON SCROLL)
 11. axios.js        (Libreria para hacer peticiones JS) https://www.youtube.com/watch?v=Zt1VceJs0vU
 12. https://threejs.org/     (Libreria js en 3d)
+13. Pushbar.js      (Crea menus de nav deslizables)
 
 
 # EXTENCIONES GOOGLE CHROME
@@ -169,6 +172,7 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 1. PRETIER                      (FORMATEA CODIGO PARA QUE SE VEA MAS LIMPIO)
 2. ESLINT
 3. LIVE SERVER
+4. PX TO REM                    (cambia unidades px a rem)   ALT IZQ + Z
 3. Spanish language pack for visual studio code     (CAMBIA VISUAL STUDIO A UN ENTORNO EN ESPAÑOL) 
 4. Auto Rename Tag               (para html)
 5. Auto close Tag                (para html)
@@ -190,7 +194,7 @@ LINK INFINITYFREE          proyectaps.infinityfreeapp.com
 
 # HOSTING
 - bolsystem
-- hostgator
+- hostgator     https://www.youtube.com/watch?v=T_pVyRNUL9M
 - hostinger
 - interserver.net
 - webcaribe.com
@@ -386,27 +390,3 @@ LINK INFINITYFREE          proyectaps.infinityfreeapp.com
  
  ->
 
-
-
-
-
-
-
-ANIMATE
-1. Colocar archivo minificado en el head "min.css"
-<!--ANIMATE.CSS-->
-    <link rel="stylesheet" href="./css/animate.min.css">
-
-    tambien podemos utilizar CDN
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
-2. <!--SCRIPT DE ANIMATION EL SCROLLING-->
-    <script src="./js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-
-
-
-    pagina biografia WATARIROUKA
-    https://drama.fandom.com/es/wiki/Watarirouka_Hashiritai_7#Historia

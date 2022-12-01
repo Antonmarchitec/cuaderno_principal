@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Unidades REM y EM </title>
+</head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html{       /*CONTENEDOR RAIZ ORIGEN*/
+        font-size: 16px;
+    }
+
+    .contenedor{  /*CONTENEDOR PADRE MAS CERCANO*/
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px;
+        background: rgb(211, 211, 211);
+        font-size:1rem;
+    }
+
+    .contenedor .title{
+        color: rgb(255, 44, 44);
+        font-size: 1em;
+
+    }
+
+    .contenedor .box{
+        font-size: 50px;
+        width: 4em;
+        height: 100px;
+        margin: 10px 0px;
+        background-color: yellow;
+
+    }
+
+    .contenedor .subtitle{
+        font-size: 1em;
+    }
+
+</style>
+
+
+
+
+<body>
+    <main class="contenedor">
+        <h1 class="title"> UNIDADES REM Y EM </h1>
+        <div class="box">
+            
+        </div>
+        <h2 class="subtitle"> PIE DE PAGINA </h2>
+    </main>
+</body>
+</html>

@@ -51,3 +51,23 @@ Puedes hacer muchas otras cosas con animate.css cuando lo combinas con Javascrip
 
 const element = document.querySelector('.my-element');
 element.classList.add('animate__animated', 'animate__bounceOutLeft');
+
+
+
+
+
+
+
+ANIMATE
+1. Colocar archivo minificado en el head "min.css"
+<!--ANIMATE.CSS-->
+    <link rel="stylesheet" href="./css/animate.min.css">
+
+    tambien podemos utilizar CDN
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+2. <!--SCRIPT DE ANIMATION EL SCROLLING-->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>

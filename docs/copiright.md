@@ -16,3 +16,9 @@ VER VIDEO https://www.youtube.com/watch?v=Ox2ZAp8-iR8
 5. freepd
 6. VIDEVO
 7. PIXABAY
+
+
+
+VISITAR ESTA OPCION PARA EGISTRAR PRODUCTOS COPIRIGHT
+https://www.safecreative.org/
+Fuente https://www.youtube.com/watch?v=QNpXVeYTlf0&t=565s
