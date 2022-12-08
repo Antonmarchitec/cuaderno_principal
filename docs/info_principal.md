@@ -1,3 +1,8 @@
+## MIS FAVORITOS
+# IMAGENES PNG
+1. 14. pngwing.com                 (IMAGENES PNG GRATUITAS) 
+
+
 APUNTES PARA ESTUDIAR
 EJERCICIOS RESUELTOS JS APRENDER
 digitalnestweb.com
@@ -103,17 +108,22 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 # SITIOS IMAGENES GRATUITAS Y DE PAGA HD
 9.  pixabay                     (IMAGENES FULL HD)
 10. unsplash                    (IMAGENES FULL HD)
-11. undraw                      (IMAGENES FULL HD)
 12. pexels                      (IMAGENES FULL HD)
 17. pngocean                    (IMAGENES GRATUITAS)
 18. klipartz.com                (IMAGENES PNG FULL HD)
-19. freepik                     (IMAGENES FULL HD Y PSD)
 20. freerangestock.com          (IMAGENES HD GRATUITAS)
 25. undraw.co/illustrations     (IMAGENES SVG GRATIS)
 26. remove.bg                   (QUITA LOS FONDOS DE IMAGENES)     A TOMAR EN CUENTA------------ 
 13. tiny.png                    (OPTIMIZADOR DE IMAGENES)
-14. pngwing.com                 (IMAGENES PNG GRATUITAS) 
 
+# IMAGENES PNG
+14. pngwing.com                 (IMAGENES PNG GRATUITAS) 
+15. freepng.es                  (IMAGENES PNG GRATUITAS) 
+16. pngtree.com                 (IMAGENES PNG GRATUITAS) 
+
+# ILLUSTRACIONES
+1. freepik                     (IMAGENES FULL HD Y PSD)
+2. undraw                      (IMAGENES FULL HD)
 
 
 # GENERADORES WEB
