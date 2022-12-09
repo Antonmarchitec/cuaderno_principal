@@ -126,6 +126,12 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 2. undraw                      (IMAGENES FULL HD)
 
 
+# PAGINAS DE RECONOCIMIENTO DE FUENTES
+1. WhatFont                    (Extension de chrome)
+2. https://www.myfonts.com/    (Pagina buscadora de fuentes DE PAGA)
+3. whatFontis.com              (Pagina buscadora de fuentes NO FUNCIONA)
+
+
 # GENERADORES WEB
 14. cssmatic.com                (GENERADOR DE SOMBRAS)
 15. gradients                   (GENERADOR GRADIENTES)
