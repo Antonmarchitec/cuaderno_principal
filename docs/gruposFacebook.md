@@ -24,11 +24,12 @@
 22. Aprende desarrollo web | Tirando código en la web HTML5 CSS3 y Javascript
 23. Diseño y Desarrollo Web | Recursos | Consultas | Comunidad CodigoMasters
 
+
 //Aumentar
 24. Programacion - Compartiendo Conocimiento
 25. Desarrolladores Chile
 26. programacion para principiantes
-
+27. HTML CSS y Javascript en español
 
 ## cursoytrabajoaps
 9. Desarrollo Web HTML, CSS y JAVASCRIPT [Desarrollo, Diseño y Tutoriales]

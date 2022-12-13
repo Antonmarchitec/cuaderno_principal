@@ -12,3 +12,7 @@ element.reverse()        //invierte los elementos su orden del array
 element.join()           // devuelve un string con el separador que indiquemos
 element.splice(3)        //elimina desde la posicion 3 hasta el final
 element.splice(2,2)      //elimina desde la posicion 2 el numero de valores que le indiquemos
+
+
+# PAGINAS INTERESANTES DE APRENDISAJE EN JAVASCRIPT
+1. Manz.dev      https://lenguajejs.com/javascript/oop/clases/  
