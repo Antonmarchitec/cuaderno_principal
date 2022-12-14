@@ -1,6 +1,18 @@
 1. SOUNDRAW
 2. EPIDEMIC SOUND
 
+
+---------------LINK DE CANALES DE MUSICA SIN COPYRIGHT---------------
+
+https://www.youtube.com/c/audiolibrar...
+https://www.youtube.com/c/NoCopyright...
+
+ENTRAR AL SIGUIENTE ENLACE – PROYECTO DEL CANAL HOLA MUNDO
+PARTE 1: https://www.youtube.com/watch?v=a6MU-bwuOvo
+PARTE 2: https://www.youtube.com/watch?v=K2D97-5iSzs&t=0s
+
+
+
 https://www.youtube.com/watch?v=bqCqtG8K1EM
 //SE DEBE HACER MENSION A LOS AUTORES 
 3. www.hooksounds.com

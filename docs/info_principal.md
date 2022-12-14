@@ -16,36 +16,9 @@ CANVA: https://partner.canva.com/BXg13q
 CLIPCHAMP: https://clipchamp.com/es/
 
 
-CSS
-***
-last-child
-active
-
-Que son y para que sirven las Peudoclases
-:active    cambia los estilos en cuanto se da un click 
-:link      cambia el estado del enlace cuando no hayamos entrado o usado
-:visited   cambia el color cuando ya fue utilizado un hipetvinculo
-:hover     cambia cuando ponemos el cursor enzima
-
-:first-child    selecciona el primero de un grupo de elementos
-:last-child     selecciona al ultimo de un grupo de elementos
-
-
-:first-of-type     selecciona el primer parrafo/div/h1 etc  de un grupo  
-:last-of-type      selecciona al ultimo parrafo/div/h1 etc  de un grupo   
-
-https://www.youtube.com/watch?v=yxZiFiF7xDU
 
 
 
----------------LINK DE CANALES DE MUSICA SIN COPYRIGHT---------------
-
-https://www.youtube.com/c/audiolibrar...
-https://www.youtube.com/c/NoCopyright...
-
-ENTRAR AL SIGUIENTE ENLACE – PROYECTO DEL CANAL HOLA MUNDO
-PARTE 1: https://www.youtube.com/watch?v=a6MU-bwuOvo
-PARTE 2: https://www.youtube.com/watch?v=K2D97-5iSzs&t=0s
 
 # HACER CURRICULUM CON CODEROS
 - https://cv.coderos.mx/
@@ -179,6 +152,8 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 4. TRADUCTOR DE GOOGLE                (TRADUCTOR)
 5. REACT DEVELOPER TOOLS              (PARA REACT JS)
 
+
+
 # HERRAMIENTAS UTILES
 1. https://validator.w3.org/#validate_by_input       (PAGINA DE VALIDACION DE MARCADO)
 2. https://pandao.github.io/editor.md/en.html        (PAGINA EDITOR PARA ARCHIVOS README.md) 
@@ -188,7 +163,7 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 1. PRETIER                      (FORMATEA CODIGO PARA QUE SE VEA MAS LIMPIO)
 2. ESLINT
 3. LIVE SERVER
-4. PX TO REM                    (cambia unidades px a rem)   ALT IZQ + Z
+4. PX TO REM                     (cambia unidades px a rem)   ALT IZQ + Z
 3. Spanish language pack for visual studio code     (CAMBIA VISUAL STUDIO A UN ENTORNO EN ESPAÑOL) 
 4. Auto Rename Tag               (para html)
 5. Auto close Tag                (para html)

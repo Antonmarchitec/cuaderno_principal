@@ -15,7 +15,7 @@ Te ofrezco componentes personalizados para que tu sitio web o landing page tenga
 ✅ Integración a redes sociales. 
 ✅ Botón de subida. 
 ✅ Secciones animadas. 
-✅ Menú de navegación (horizontal -    vertical). 
+✅ Menú de navegación (horizontal - vertical). 
 ✅ Integración de video. 
 ✅ Imágenes. 
 ✅ Slader.  
