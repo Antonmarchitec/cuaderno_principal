@@ -28,6 +28,7 @@
     </form>
     
     <h2>Valores seleccionados</h2>
+
     <ul id="elementUl" style="background:rgb(209, 209, 209) ;width: 200px;height: 100px;">
         <!--   <li class="elementUl_li"> aca viene el texto </li>    -->
     </ul>
@@ -40,7 +41,6 @@
 
         buton.addEventListener("click", ()=>{
             elementUl.textContent = " "
-
             checks.forEach( ele =>{
                 //console.log(ele)
                 if(ele.checked == true){
@@ -49,13 +49,8 @@
                    elem_li.textContent = ele.value
                    elementUl.appendChild(elem_li)
                 }
-                
             })
         })
-
-
-     
-       
 
     </script>
 </body>

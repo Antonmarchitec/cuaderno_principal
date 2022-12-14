@@ -196,6 +196,8 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 7. ERROR LENS                    (muestra errores sin necesidad de abrir la consola)
 8. Quokka JS                     (Programar con la consola de visual estudio code)
 
+
+
 # REPOSITORIOS
 - github pages
 - Notlify
