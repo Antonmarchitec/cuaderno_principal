@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Documento de prueba </title>
+</head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container{
+        width: 80%;
+        height: 300px;
+        border:2px solid grey;
+        margin:20px auto;
+    }
+
+</style>
+
+<body>
+    <h1> Documento de prueba</h1>
+    
+    <form>
+        Cambie el SELECT para ver la opción <b>onChange</b> 
+        <select id="select1" onChange="cambiarColor()">
+            <option value="">Cambie</option>
+            <option value="ff0000">Rojo</option>
+            <option value="00ff00">Verde</option>
+            <option value="0000ff">Azul</option>
+        </select>
+
+        <br>
+
+        Número de índice seleccionado del objeto SELECT:
+        <input type="text" id="text1"><br>
+        Texto seleccionado:
+        <input type="text" id="text2"><br>
+        Valor asociado:
+        <input type="text" id="text3"><br>
+    </form>
+
+<br>
+    <select name="selectOption" id="selector" onchange="seleccionar();">
+        <option value=""> SELECCIONAR </option>
+        <option value="value_html"> HTML </option>
+        <option value="value_css"> CSS </option>
+        <option value="value_js"> JS </option>
+        <option value="value_sass"> SASS </option>
+    </select>
+
+    <div class="container" id="containerBase">
+        <h2 id="ele__h2"> Aca viene el texto </h2>
+    </div>
+
+
+
+        
+
+
+    <script>
+
+        
+        document.addEventListener("DOMContentLoaded", ()=>{
+            seleccionar()
+        })
+
+        let containerBase = document.getElementById("containerBase")
+        let ele__h2 = document.querySelector("#ele__h2")
+
+
+        const seleccionar = () =>{
+            let valor = document.querySelector("#selector").value
+
+            switch(valor){
+                case "value_html":
+                    console.log("Pegaste en HTML")
+                    containerBase.textContent = funcionPintarHTML()
+                    funcionPintarHTML()
+                break;
+                case "value_css":
+                    console.log("Pegaste en CSS")
+                    funcionPintarCSS()
+                break;
+                case "value_js":
+                    console.log("Pegaste en JS")
+                    funcionPintarJS()
+                break;case "value_sass":
+                    console.log("Pegaste en SASS")
+                    funcionPintarSASS()
+                break;
+                default:
+                    console.log("nunguno")
+            }
+        }
+
+        const funcionPintarHTML = ()=>{
+            ele__h2.textContent = "Creando elementos HTML"
+        }
+
+        const funcionPintarCSS = ()=>{
+            ele__h2.textContent = "Creando elementos CSS"
+        }
+
+        const funcionPintarJS = ()=>{
+            ele__h2.textContent = "Creando elementos JS"
+        }
+
+        const funcionPintarSASS = ()=>{
+            ele__h2.textContent = "Creando elementos SASS"
+        }
+         
+           
+
+       
+    </script>
+</body>
+</html>
