@@ -4,8 +4,6 @@
 2. Aprende desarrollo web | Tirando código en la web HTML5 CSS3 y Javascript
 3. Programadores de Argentina
 4. Diseñadores web en México: HTML5, CSS, PHP, JavaScript, WordPress y Drupal
-5. Desarrollo Web Completo --MAS GENTE
-6. Mundo programadores 
 7. Desarrolladores Web Freelance - Programadores y Diseñadores de España
 8. Desarrolladores y Programadores en Colombia
 9. Desarrollo y Diseño Web - Bolivia

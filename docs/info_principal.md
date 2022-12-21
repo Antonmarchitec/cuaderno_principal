@@ -114,7 +114,8 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 16. colors                      (PALETAS DE COLORES)
 18. clippy                      Custom property
 
-
+# FONDOS DE PANTALLA EN VIVO
+1. Descarga aquí ➡️ https://rebrand.ly/lively-wwallpaper
 
 # LOADING WEB PRELOADER
 22. icons8.com/preloaders       (PARA CARGAR PAGINAS)
@@ -186,11 +187,17 @@ LINK INFINITYFREE          proyectaps.infinityfreeapp.com
 
 
 # HOSTING
+- SiteGround    (PREMIUM)
 - bolsystem
 - hostgator     https://www.youtube.com/watch?v=T_pVyRNUL9M
 - hostinger
 - interserver.net
 - webcaribe.com
+- IONOS
+- BlueHost
+- DreamHost
+- GoDaddy
+- H2 Hosting
 
 
 # NOTAS PARA HTML
