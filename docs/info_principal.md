@@ -155,9 +155,12 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 
 
 
-# HERRAMIENTAS UTILES
+# HERRAMIENTAS UTILES DE MARCADO HTML Y EDITOR README
 1. https://validator.w3.org/#validate_by_input       (PAGINA DE VALIDACION DE MARCADO)
 2. https://pandao.github.io/editor.md/en.html        (PAGINA EDITOR PARA ARCHIVOS README.md) 
+3. https://caninclude.glitch.me/                     (CANINCLUDE VALIDA EL HTML CORRECTO) 
+4. https://htmlreference.io/                         (PAGINA DE RERFERENCIA DE ETIQUETAS BLOQUE O LINEAR )
+
 
 
 # PLUYING O EXTENSIONES VISUAL STUDIO CODE

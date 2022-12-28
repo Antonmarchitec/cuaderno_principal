@@ -95,8 +95,7 @@ https://www.templatemonster.com/marketplace/?aff=ctwplant
 
 
 
-# MENSAJES ALEATORIOS CAPTACION DE CLIENTES
-
+# MENSAJE ALEATORIOS CAPTACION DE CLIENTES
 Hola, ¿cómo estás?, mucho gusto me presento, mi nombre es Antonio Ponce, diseñador y desarrollador 
 de páginas web, estuve siguiendo muy de cerca su página de Facebook y redes sociales y me 
 parece super interesante el crecimiento que está obteniendo en este último periodo de tiempo. 
@@ -127,7 +126,7 @@ Antonio Ponce.
 
 
 
-
+# COMENTARIO DE PRUEBA
 Buenas noches equipo de Sowy pasteleria estube siguiendo muy de cerca su pagina de 
 facebook y redes sociales y me parece super interesante el crecimiento que estan teniendo
 en este ultimo periodo de tiempo a pesar de la pandemia. eso habla indirectamente de su nivel.
@@ -153,3 +152,26 @@ Antonio Ponce.
 Equipo DigitizingCode.
       
 
+
+
+
+
+////////////////////////////////////////////////////////////////////////
+************************************
+*************************************
+## COMO PODRIAMOS POSTEAR 
+¡Hola a todos! Soy Victor Ocampo y actualmente me dedico diseñar sitios web tipo landing page, blogs, one page, tiendas online entre otros. Si necesitas más información con gusto te hago un presupuesto.🚀🙌
+💬 Cotiza aquí: https://api.whatsapp.com/send?phone=524776600567
+
+
+
+## COMO PODRIAMOS POSTEAR
+Buen dia gente,   
+Busco referencias de personas que tengan conocimientos en la creación de Páginas WEB y Marketing para un proyecto en Monterrey. 
+Se necesita ingles intermedio o avanzado de preferencia, cualquier detalle o especificación conmigo. déjenme el número de las personas y yo las contacto.   
+Servicios solicitados:  
+Página WEB y Mantenimiento 
+Google Ads 
+Facebook Ads 
+Contenido Digital  
+Instagram Ads
